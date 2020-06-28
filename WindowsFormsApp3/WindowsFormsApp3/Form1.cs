@@ -101,7 +101,7 @@ namespace WindowsFormsApp3
             if (radioButton2.Checked)
 
             {
-                resp = new TProf("Рыков", "Игнат", 110000, "высшая", "информатика");
+                resp = new TProf("Рыков", "Игнат", 110000, "высшая", "информатика");// ему не повезло(комментарий для 4 ветки)
             }
 
             textBox5.AppendText(resp.info() + "\n");
